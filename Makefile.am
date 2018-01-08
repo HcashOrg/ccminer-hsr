@@ -34,7 +34,7 @@ ccminer_SOURCES	= elist.h miner.h compat.h \
 			  myriadgroestl.cpp cuda_myriadgroestl.cu \
 			  lyra2/Lyra2.c lyra2/Sponge.c \
 			  lyra2/lyra2RE.cu lyra2/cuda_lyra2.cu \
-		          lyra2/lyra2REv2.cu lyra2/cuda_lyra2v2.cu \
+			  lyra2/lyra2REv2.cu lyra2/cuda_lyra2v2.cu \
 			  lyra2/Lyra2Z.c lyra2/lyra2Z.cu lyra2/cuda_lyra2Z.cu \
 			  Algo256/cuda_bmw256.cu Algo256/cuda_cubehash256.cu \
 			  Algo256/cuda_blake256.cu Algo256/cuda_groestl256.cu Algo256/cuda_keccak256.cu Algo256/cuda_skein256.cu \
@@ -60,12 +60,14 @@ ccminer_SOURCES	= elist.h miner.h compat.h \
 			  sph/hamsi.c sph/hamsi_helper.c sph/streebog.c \
 			  sph/shabal.c sph/whirlpool.c sph/sha2big.c sph/haval.c \
 			  sph/ripemd.c sph/sph_sha2.c \
+			  sph/sm3.c \
 			  lbry/lbry.cu lbry/cuda_sha256_lbry.cu lbry/cuda_sha512_lbry.cu lbry/cuda_lbry_merged.cu \
 			  qubit/qubit.cu qubit/qubit_luffa512.cu qubit/deep.cu qubit/luffa.cu \
 			  x11/x11.cu x11/fresh.cu x11/cuda_x11_luffa512.cu x11/cuda_x11_cubehash512.cu \
 			  x11/cuda_x11_shavite512.cu x11/cuda_x11_simd512.cu x11/cuda_x11_echo.cu \
 			  x11/cuda_x11_luffa512_Cubehash.cu x11/x11evo.cu x11/timetravel.cu x11/bitcore.cu \
 			  x13/x13.cu x13/cuda_x13_hamsi512.cu x13/cuda_x13_fugue512.cu \
+			  x14/cuda_sm3.cu x14/hsr.cu \
 			  x15/x14.cu x15/x15.cu x15/cuda_x14_shabal512.cu x15/cuda_x15_whirlpool.cu \
 			  x15/whirlpool.cu x15/cuda_x15_whirlpool_sm3.cu \
 			  x17/x17.cu x17/hmq17.cu x17/cuda_x17_haval256.cu x17/cuda_x17_sha512.cu \
